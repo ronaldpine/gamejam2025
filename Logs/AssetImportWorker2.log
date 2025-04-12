@@ -1616,3 +1616,69 @@ Memory consumption went from 154.2 MB to 147.1 MB.
 Total: 7.757200 ms (FindLiveObjects: 0.644000 ms CreateObjectMapping: 0.518400 ms MarkObjects: 3.800900 ms  DeleteObjects: 2.793300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 246659.933909 seconds.
+  path: Assets/Tile/TheSea.png
+  artifactKey: Guid(0401bf85c2fe5a0478fb57b6e2408c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/TheSea.png using Guid(0401bf85c2fe5a0478fb57b6e2408c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34625efff54707bbe755bbb0fb2a6895') in 0.177682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.926147 seconds.
+  path: Assets/Tile/DIDDY_0 1.prefab
+  artifactKey: Guid(2ce244a11745e48468df720ef4f287a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/DIDDY_0 1.prefab using Guid(2ce244a11745e48468df720ef4f287a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b5fd813d7784a3a4bb65ddbc86a6bbe') in 0.3121661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.609 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.554 seconds
+Domain Reload Profiling: 1158ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (419ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6620 unused Assets / (6.7 MB). Loaded Objects now: 7375.
+Memory consumption went from 162.0 MB to 155.3 MB.
+Total: 7.136200 ms (FindLiveObjects: 0.708100 ms CreateObjectMapping: 0.320300 ms MarkObjects: 3.432400 ms  DeleteObjects: 2.674600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
